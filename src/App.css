@@ -185,16 +185,25 @@
   flex-direction: column;
   position: absolute;
   z-index: 3;
-  transform: translateX(1000px);
+}
+.tab1{
+  transform: translateX(850px);
+}
+.tab2{
+  transform: translateX(900px);
+}
+.tab3{
+  transform: translateX(950px);
 }
 .tab--img__container{
   border-radius: 0 0 10px 10px;
-  background:rgba(60, 145, 230, .8);
+  background:rgb(60, 145, 230);
   box-shadow: 3px 3px 3px rgba(0,0,0,.4);
   z-index: 3;
   display: block;
   width: 45px;
 }
+
 .tab--weapon{
   display: flex;
   text-align: center;
@@ -209,7 +218,7 @@
   width: 200px;
   height: auto;
   border-radius: 0 0 20px 0;
-  background:rgba(60, 145, 230, .8);
+  background:rgb(60, 145, 230);
 }
 .tab--img{
   width: 90%;
@@ -218,7 +227,7 @@
   filter: drop-shadow(3px 2px 2px rgba(0,0,0,.7));
 }
 .tab--weapon__img{
-  width: 100px;
+  width: 150px;
   height: auto;
   filter: drop-shadow(3px 2px 2px rgba(0,0,0,.7));
 }
@@ -234,3 +243,29 @@
   font-weight: bold;
   font-size: 16px;
 }
+.tab--weapon__info h2{
+  font-size: 20px;
+  height: 50px;
+}
+.tab--img__container:hover .tab--img{
+  filter: drop-shadow(3px 3px 3px rgb(0,0,0));
+}
+.tab--clicked{
+  z-index: 8;
+}
+
+.tab--gameInfo__container{
+  width: 370px;
+  padding: 10px;
+  background-color:rgb(60, 145, 230);
+}
+.scroller {
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+.tab--gameInfo__frame{
+  border: none;
+  width: 350px;
+}
+
