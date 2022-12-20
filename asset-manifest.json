@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tweeez-react/static/css/main.78e90888.css",
-    "main.js": "/tweeez-react/static/js/main.4475d24e.js",
+    "main.css": "/tweeez-react/static/css/main.32caf154.css",
+    "main.js": "/tweeez-react/static/js/main.c12067e7.js",
     "static/js/787.5077ff9d.chunk.js": "/tweeez-react/static/js/787.5077ff9d.chunk.js",
     "static/media/flippingE.gif": "/tweeez-react/static/media/flippingE.f8e9e5841b387e6b438b.gif",
     "index.html": "/tweeez-react/index.html",
-    "main.78e90888.css.map": "/tweeez-react/static/css/main.78e90888.css.map",
-    "main.4475d24e.js.map": "/tweeez-react/static/js/main.4475d24e.js.map",
+    "main.32caf154.css.map": "/tweeez-react/static/css/main.32caf154.css.map",
+    "main.c12067e7.js.map": "/tweeez-react/static/js/main.c12067e7.js.map",
     "787.5077ff9d.chunk.js.map": "/tweeez-react/static/js/787.5077ff9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78e90888.css",
-    "static/js/main.4475d24e.js"
+    "static/css/main.32caf154.css",
+    "static/js/main.c12067e7.js"
   ]
 }
