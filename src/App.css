@@ -225,6 +225,7 @@
   height: auto;
   padding: 5px;
   filter: drop-shadow(3px 2px 2px rgba(0,0,0,.7));
+  
 }
 .tab--weapon__img{
   width: 150px;
@@ -255,17 +256,87 @@
 }
 
 .tab--gameInfo__container{
-  width: 370px;
+  width: 390px;
+  text-align: center;
   padding: 10px;
   background-color:rgb(60, 145, 230);
-}
-.scroller {
-  overflow-y: scroll;
-  scrollbar-color: rebeccapurple green;
-  scrollbar-width: thin;
+  border-radius: 0 0 20px 0;
 }
 .tab--gameInfo__frame{
   border: none;
   width: 350px;
+}
+.eflex:nth-child(2) {
+    
+  margin-left: 320px;
+  animation: eDrop 4s infinite;
+}
+
+.eflex:nth-child(3) {
+  
+  margin-left: 640px;
+}
+
+.eflex:nth-child(4) {
+ 
+  margin-left: 920px;
+  animation: eDrop 4s infinite;
+}
+
+.eflex:last-child {
+  
+  margin-left: 1190px;
+}
+.awayBox>p {
+
+  font-family: 'Press Start 2P';
+  font-size: 80px;
+  font-style: bold;
+  color: rgb(255, 225, 0);
+
+  text-shadow: 5px 3px 2px rgb(134, 134, 0),
+               10px 10px 0px rgb(50, 50, 19);
+
+  text-align: left;
+
+  margin-left: 1280px;
+
+  width: 1000px;
+}
+
+.awayBox>p:first-child{
+
+  margin-top: 50px;
+  animation: slideInTop 6s infinite ease-out;
+}
+
+.awayBox>p:nth-child(2) {
+  
+  width: 1200px;
+  margin-top: 100px;
+  animation: slideInBottom 6s infinite ease-in;
+}
+@keyframes slideInTop {
+  0% {
+      transform: translateX(0px);
+  }
+  50% {
+      transform: translateX(-1050px);
+  }
+  100% {
+      transform: translateX(-2250px);
+  }
+}
+
+@keyframes slideInBottom {
+  0% {
+      transform: translateX(0px);
+  }
+  50% {
+      transform: translateX(-1050px);
+  }
+  100% {
+      transform: translateX(-2310px);
+  }
 }
 

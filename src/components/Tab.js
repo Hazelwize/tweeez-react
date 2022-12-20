@@ -5,7 +5,7 @@ const Tab = ({number, component, tabImg}) => {
         <div className={'tab'+ number + (show ? ' tab tab--clicked' : ' tab')}>
             <div>{show && component}</div>
             <div className='tab--img__container' onClick={()=>setShow(!show)}>
-                <img className='tab--img'src={tabImg}></img>
+                <img className='tab--img'src={tabImg} alt=''></img>
             </div>
             
         </div>
